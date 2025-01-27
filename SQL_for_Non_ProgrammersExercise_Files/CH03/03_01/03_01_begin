@@ -1,5 +1,6 @@
 --COUNT: counting orders
-
+seLECT COUNT (*)
+FROM sales
 
 
 --COUNT: counting gift basket orders
