@@ -11,3 +11,11 @@
 
 
 ----INNER JOIN: count of employees and total sales per job title with table aliases
+SELECT e.job_title,
+	   COUNT(DISTINCT e.id) AS emp_count,
+	   SUM(s.order_total) AS total_sales
+FROM employees AS e
+INNER JOIN sales AS s
+ON e.id = s.emp_id
+GROUP BY e.job_title
+ORDER BY total_sales DESC;

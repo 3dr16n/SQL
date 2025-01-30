@@ -13,6 +13,7 @@ GROUP BY product_lines
 ORDER BY sum_of_orders DESC;
 
 
+
 --orders made by Business customers in top-selling states and all Gift Basket orders
 SELECT order_num,
        cust_state,

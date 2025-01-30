@@ -7,7 +7,13 @@
 
 
 --total sales per Basil product
-
+SELECT prod_name,
+	SUM(order_total) AS sum_of_orders
+FROM sales
+WHERE prod_name LIKE 'Basil%'
+GROUP BY prod_name
+ORDER BY sum_of_orders DESC;
 
 
 --list of single-pack Basil products available
+s
