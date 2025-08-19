@@ -4,12 +4,6 @@
 		{
 			"previewLimit": 50,
 			"driver": "SQLite",
-			"name": "exercise",
-			"database": "${workspaceFolder:SQL}/SQL_for_Non_ProgrammersExercise_Files/Data/oliveoil.db"
-		},
-		{
-			"previewLimit": 50,
-			"driver": "SQLite",
 			"name": "SQL",
 			"database": "${workspaceFolder:SQL}/SQL_for_Non_ProgrammersExercise_Files/Data/oliveoil.db"
 		}
